@@ -37,7 +37,9 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-              TextButton(onPressed: (){}, child: const Text('Screen 1')),
+              TextButton(onPressed: (){
+                Get.toNamed(AppRoute.searchPage);
+              }, child: const Text('Screen 1')),
               TextButton(onPressed: (){}, child: const Text('Screen 2')),
               TextButton(onPressed: (){}, child: const Text('Screen 3')),
           ],

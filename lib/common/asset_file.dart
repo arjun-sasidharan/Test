@@ -1,0 +1,1 @@
+const searchIcon = 'assets/icons/ic_search.svg';
