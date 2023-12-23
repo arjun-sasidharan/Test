@@ -15,10 +15,11 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Test',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.yellow,
       ),
       initialRoute: AppRoute.homepage,
       getPages: AppPages.all,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
