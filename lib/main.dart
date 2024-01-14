@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Test',
       theme: ThemeData(
         primarySwatch: Colors.yellow,
+        fontFamily: "NotoSansJP",
       ),
       initialRoute: AppRoute.homepage,
       getPages: AppPages.all,
@@ -40,9 +41,11 @@ class MyHomePage extends StatelessWidget {
           children: [
               TextButton(onPressed: (){
                 Get.toNamed(AppRoute.searchPage);
-              }, child: const Text('Screen 1')),
-              TextButton(onPressed: (){}, child: const Text('Screen 2')),
-              TextButton(onPressed: (){}, child: const Text('Screen 3')),
+              }, child: const Text('Screen 1', style: TextStyle(color: Colors.black))),
+              TextButton(onPressed: (){
+                Get.toNamed(AppRoute.detailPage);
+              }, child: const Text('Screen 2', style: TextStyle(color: Colors.black))),
+              TextButton(onPressed: (){}, child: const Text('Screen 3', style: TextStyle(color: Colors.black))),
           ],
         ),
       ),

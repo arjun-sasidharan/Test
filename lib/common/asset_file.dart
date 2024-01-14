@@ -7,6 +7,9 @@ const iconAccount = 'assets/icons/ic_account.svg';
 const iconFilter = 'assets/icons/ic_filter.svg';
 const iconLove = 'assets/icons/ic_love.svg';
 const iconLocation = 'assets/icons/ic_location.svg';
+const iconMinusCircle = 'assets/icons/ic_minus_circle.svg';
+const iconCheckPolygon = 'assets/icons/ic_check.svg';
+const iconCheckPolygon2 = 'assets/icons/ic_check2.png';
 
 
 // Images
